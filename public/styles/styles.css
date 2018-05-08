@@ -1,0 +1,18 @@
+select option[disabled]:first-child {
+	display: none;
+}
+
+#image-header-wrapper {
+    border: 1px solid blue;
+}
+#image-header-one {
+    display: inline-block;
+    width:45%;
+    border: 1px solid red;
+}
+#image-header-two {
+    vertical-align:top;
+    display: inline-block;
+    width:45%;
+    border: 1px solid green;
+}
