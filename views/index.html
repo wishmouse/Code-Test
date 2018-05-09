@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- //// -->
-<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <!-- //// -->
@@ -25,38 +24,84 @@
 <div>Front end test of sorts</div>
 
 <div>Form title</div>
-<form action="/form" method="post">
-  <input type="text" id="first-name" placeholder="First name">
-
-  <input type="text" id="last-name" placeholder="Last name">
-
-  <input type="email" id="email" placeholder="Email address">
-
-  <select id="city">
-    <option value="" selected disabled>City</option>
-    <option value="Auckland">Auckland</option>
-    <option value="Dunedin">Dunedin</option>
-    <option value="Hamilton">Hamilton</option>
-    <option value="Wellington">Wellington</option>
-  </select>
-</form>
-<button id="submit" type="submit">Submit</button>
+<div class='form-wrapper'>
+  <div class= 'form-left'>
+    <input type="text" id="first-name"  class='input' placeholder="First name">
+  </div>
+  <div class= 'form-right'>
+    <input type="text" id="last-name"  class='input'placeholder="Last name">
+  </div>
+</div>
+<div class='form-wrapper'>
+  <div class= 'form-left'>
+    <input type="email" id="email" class='input' placeholder="Email address">
+  </div>
+  <div class= 'form-right'>
+    <select id="city" class='input'>
+      <option value="City" selected disabled>City.</option>
+      <option value="Auckland">Auckland</option>
+      <option value="Dunedin">Dunedin</option>
+      <option value="Hamilton">Hamilton</option>
+      <option value="Wellington">Wellington</option>
+    </select>
+  </div>
+</div>
+<div>
+  <div id="submit" class="submit" type="submit">
+    <span class='submit-text'>Submit</span>
+  </div>
+</div>
 
 <div id="border"></div>
 
-<div id="image-header-wrapper">
-    <div id="image-header-one">
-      <img src="../styles/pink_sunset.jpg" alt="Pink and Purple sunset" width="450px" width="270px" >
+<div class="image-header-wrapper">
+    <div class="image-header-one">
+      <div class="image">
+        <img src="../styles/pink_sunset.jpg" alt="Pink and Purple sunset"  >
+      </div>
       <div class="image-header-heading"> Pink and Purple Sunset</div>
       <div class="image-header-story">Pie wafer topping chocolate cake. Brownie sweet sugar plum sugar plum tootsie roll jelly beans. Oat cake toffee lollipop tiramisu cotton candy fruitcake icing icing. Candy canes pudding sugar plum fruitcake caramels tart tiramisu jelly danish. Carrot cake soufflé tootsie roll muffin cheesecake. Chocolate oat cake danish soufflé.</div>
-      <a href="https://wallpapercave.com/w/AUCdJPq">Go to the sunset</a>
+      <div class="link">
+        <a href="https://wallpapercave.com/w/AUCdJPq">Go to the sunset</a>
+      </div>
     </div>
-    <div id="image-header-two">
-      <img src="../styles/sublime_trees.jpg" alt="Sublime Trees" width="450px" width="270px">
+    <div class="image-header-two">
+      <div class = 'image'>
+        <img src="../styles/sublime_trees.jpg" alt="Sublime Trees" >
+      </div>
       <div class="image-header-heading"> Sublime Trees</div>
       <div class="image-header-story">Pie wafer topping chocolate cake. Brownie sweet sugar plum sugar plum tootsie roll jelly beans. Oat cake toffee lollipop tiramisu cotton candy fruitcake icing icing. Candy canes pudding sugar plum fruitcake caramels tart tiramisu jelly danish. Carrot cake soufflé tootsie roll muffin cheesecake. Chocolate oat cake danish soufflé.</div>
-      <a href="https://photodune.net/item/palm-trees-and-colorful-sunset-antigua/21228482">View some more</a>
+      <div class="link">
+          <a href="https://photodune.net/item/palm-trees-and-colorful-sunset-antigua/21228482">View some more</a>
+      </div>
     </div>
+</div>
+<div class="footer-wrapper">
+  <div class='footer-left'>
+    <div class='media'>
+        <img src="../styles/facebook.png">
+      </div>
+    <div class='media'>
+      <img src="../styles/instagram.png">
     </div>
+    <div class='media'>
+      <img src="../styles/youtube.png">
+    </div>
+    <div class = "contact"> Pie wafer topping chocolate cake. Brownie sweet sugar plum sugar plum tootsie  </div>
+  </div>
+
+  <div class='footer-right'>
+    <div class = 'address'>
+      <div class = "contact"> Main Office </div>
+      <div class = "contact"> 6235 Thalia Terrace Apt. 695 </div>
+      <div class = "contact"> Frederikfert </div>
+      <div class = "contact"> Jamaica </div>
+    </div>
+    <div class = 'contact-info'>
+      <div class = "contact"> Contact </div>
+      <div class = "contact"> 735-412-6378 </div>
+      <div class = "link"> myname@gmail.com</div>
+    </div>
+  </div>
 </div>
 </body>

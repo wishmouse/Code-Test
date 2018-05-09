@@ -1,12 +1,12 @@
 {
-  "name": "roster",
+  "name": "Code-Test",
   "version": "1.0.0",
   "description": "fe-test",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./bin/www",
-    "build": "browserify -t hbsfy ./public/javascript/client.js -o ./public/bundle.js -dv",
-    "watch": "watchify -t hbsfy ./public/javascript/client.js -o ./public/bundle.js -dv"
+    "build": "browserify -t ./public/javascript/client.js -o ./public/bundle.js -dv",
+    "watch": "watchify -t ./public/javascript/client.js -o ./public/bundle.js -dv"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
     "browserify": "^16.1.1",
     "consolidate": "^0.15.0",
     "express": "^4.16.2",
-    "hbsfy": "^2.8.1",
     "jquery": "^3.3.1",
     "mongo": "^0.1.0",
     "nodemon": "^1.17.1",
