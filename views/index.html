@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <script src="/bundle.js"></script>
-  <link rel='stylesheet' type='text/css' href='../styles/styles.css'></link>
+  <link rel='stylesheet' type='text/css' href='../public/styles/styles.css'></link>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- //// -->
@@ -24,40 +24,52 @@
 <div>Front end test of sorts</div>
 
 <div>Form title</div>
-<div class='form-wrapper'>
-  <div class= 'form-left'>
+<div class='wrapper'>
+  <div class='edge'></div>
+  <div class='form'>
     <input type="text" id="first-name"  class='input' placeholder="First name">
   </div>
-  <div class= 'form-right'>
+  <div class= 'form'>
     <input type="text" id="last-name"  class='input'placeholder="Last name">
   </div>
+  <div class='edge'></div>
 </div>
 <div class='form-wrapper'>
-  <div class= 'form-left'>
+  <div class='edge'></div>
+  <div class= 'form'>
     <input type="email" id="email" class='input' placeholder="Email address">
   </div>
-  <div class= 'form-right'>
-    <select id="city" class='input'>
-      <option value="City" selected disabled>City.</option>
+  <div class= 'form'>
+  <form>
+    <select>
+      <option value="" selected disabled>City</option>
       <option value="Auckland">Auckland</option>
       <option value="Dunedin">Dunedin</option>
       <option value="Hamilton">Hamilton</option>
       <option value="Wellington">Wellington</option>
     </select>
+  </form>
   </div>
+  <div class='edge'></div>
 </div>
 <div>
-  <div id="submit" class="submit" type="submit">
+<div class='wrapper'>
+  <div class='edge-submit'></div>
+  <div class='submit'>
+    <div id="submit" class="submit-button" type="submit">
     <span class='submit-text'>Submit</span>
+    </div>
   </div>
+  <div class='edge-submit'></div>
 </div>
 
 <div id="border"></div>
 
 <div class="image-header-wrapper">
+    <div class='edge'></div>
     <div class="image-header-one">
       <div class="image">
-        <img src="../styles/pink_sunset.jpg" alt="Pink and Purple sunset"  >
+        <img src="../public/styles/pink_sunset.jpg" alt="Pink and Purple sunset"  >
       </div>
       <div class="image-header-heading"> Pink and Purple Sunset</div>
       <div class="image-header-story">Pie wafer topping chocolate cake. Brownie sweet sugar plum sugar plum tootsie roll jelly beans. Oat cake toffee lollipop tiramisu cotton candy fruitcake icing icing. Candy canes pudding sugar plum fruitcake caramels tart tiramisu jelly danish. Carrot cake soufflé tootsie roll muffin cheesecake. Chocolate oat cake danish soufflé.</div>
@@ -67,7 +79,7 @@
     </div>
     <div class="image-header-two">
       <div class = 'image'>
-        <img src="../styles/sublime_trees.jpg" alt="Sublime Trees" >
+        <img src="../public/styles/sublime_trees.jpg" alt="Sublime Trees" >
       </div>
       <div class="image-header-heading"> Sublime Trees</div>
       <div class="image-header-story">Pie wafer topping chocolate cake. Brownie sweet sugar plum sugar plum tootsie roll jelly beans. Oat cake toffee lollipop tiramisu cotton candy fruitcake icing icing. Candy canes pudding sugar plum fruitcake caramels tart tiramisu jelly danish. Carrot cake soufflé tootsie roll muffin cheesecake. Chocolate oat cake danish soufflé.</div>
@@ -75,8 +87,10 @@
           <a href="https://photodune.net/item/palm-trees-and-colorful-sunset-antigua/21228482">View some more</a>
       </div>
     </div>
+    <div class='edge'></div>
 </div>
 <div class="footer-wrapper">
+  <div class='edge'></div>
   <div class='footer-left'>
     <div class='media'>
         <img src="../styles/facebook.png">
@@ -103,5 +117,6 @@
       <div class = "link"> myname@gmail.com</div>
     </div>
   </div>
+  <div class='edge'></div>
 </div>
 </body>

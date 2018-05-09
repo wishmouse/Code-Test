@@ -1,32 +1,42 @@
-.form-wrapper {
+.wrapper {
     border: 1px solid blue;
 }
-.form-left {
+.form {
     display: inline-block;
     width:20%;
     border: 1px solid red;
-
 }
-.form-right {
-    vertical-align:top;
+.edge {
     display: inline-block;
-    width:20%;
-    border: 1px solid green;
+    width:10%;
+    background: lightgreen;
 }
 
 .input{
 
-	
+
 }
 select option[disabled]:first-child {
 	display: none;
 }
 
-.submit{
+.submit {
+    display: inline-block;
+    width:20%;
+    border: 1px solid red;
+}
+
+.submit-button{
 	background-color: #76E691;
 	padding:3px 20px 3px 20px;
 	width: 120px;
 	height: 48px;
+}
+
+.edge-submit {
+    display: inline-block;
+    width:20%;
+    background: lightgreen;
 }
 
 .submit-text{
@@ -40,14 +50,14 @@ select option[disabled]:first-child {
 }
 .image-header-one {
     display: inline-block;
-    width:45%;
+    width:35%;
     border: 1px solid red;
 
 }
 .image-header-two {
     vertical-align:top;
     display: inline-block;
-    width:45%;
+    width:35%;
     border: 1px solid green;
 }
 
