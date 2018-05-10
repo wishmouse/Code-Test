@@ -1,57 +1,81 @@
-.wrapper {
-    border: 1px solid blue;
+.title{
+ width:80px;
+ margin:0 auto;
+ color: #697B94;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ padding: 20px 0px 20px 0px;
 }
+.wrapper {
+  }
 .form {
     display: inline-block;
     width:20%;
-    border: 1px solid red;
 }
 .edge {
     display: inline-block;
-    width:10%;
-    background: lightgreen;
+    width:30%;
+}
+
+.input-border{
+  border: 1px solid #697B94;
+  border-radius: 2px;
+  width: 340px;
+  height:37px;
+
 }
 
 .input{
-
-
+  margin:0 auto;
+  border:none;
+  color: #697B94;
+  padding: 11px 0px 5px 10px;
+  width:300px
 }
 select option[disabled]:first-child {
 	display: none;
 }
 
 .submit {
-    display: inline-block;
-    width:20%;
-    border: 1px solid red;
+    margin:0 auto;
+    width:13%;
 }
 
 .submit-button{
 	background-color: #76E691;
 	padding:3px 20px 3px 20px;
-	width: 120px;
-	height: 48px;
+	width: 200px;
+	height: 40px;
+  border-radius:5px
 }
 
-.edge-submit {
-    display: inline-block;
-    width:20%;
-    background: lightgreen;
-}
 
 .submit-text{
 	color:white;
 	font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  padding: 15px 44px 0px 75px;
+  width: 5px;
+}
+
+.border{
+  margin
+  width: 150px;
+  margin:0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 6%
+
 }
 
 .image-header-wrapper {
-    border: 1px solid blue;
 }
-.image-header-one {
+.image-header {
     display: inline-block;
-    width:35%;
-    border: 1px solid red;
+    width:20%;
 
 }
 .image-header-two {
@@ -62,8 +86,8 @@ select option[disabled]:first-child {
 }
 
 .image{
-		width : 50px;
-		height: 50px;
+  width: 346px;
+  height: 268px;
 }
 
 .image img{
@@ -73,7 +97,7 @@ select option[disabled]:first-child {
 }
 
 .image-header-heading{
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	color: #697B94;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -90,8 +114,10 @@ select option[disabled]:first-child {
  color: #008FFF;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 14px;
- text-decoration: none;
+ padding-top: 10px;
 }
+
+a { text-decoration: none;}
 
 .footer-wrapper {
     border: 1px solid blue;
